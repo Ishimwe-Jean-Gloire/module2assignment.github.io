@@ -1,0 +1,124 @@
+*{
+    font-family: 'roboto',sans-serif;
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #fff;
+}
+h1{
+    padding: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: brown;
+    font-size: 50px;
+}
+section{
+    position: relative;
+    width: 90%;
+    padding: 15px;
+}
+p{
+    position: relative;
+    clear: right;
+}
+div{
+    position: relative;
+    margin: auto;
+    width: 100%;
+    background: gray;
+    border: 3.5px solid #000;
+}
+.sub1 {
+    float: right;
+    width: 100px;
+    padding: 5px;
+    margin: -3px -3px 0px;
+    border: 3.5px solid black;
+    text-align: center;
+    font-size: 125%;
+    font-weight: bold;
+    background-color: #FFB6C1;
+
+}
+.sub2 {
+    float: right;
+    width: 100px;
+    padding: 5px;
+    margin: -3px -3px 0px;
+    border: 3.5px solid black;
+    text-align: center;
+    font-size: 125%;
+    font-weight: bold;
+    background-color: #e61030;
+    color: #fff;
+}
+.sub3 {
+    float: right;
+    width: 100px;
+    padding: 5px;
+    margin: -3px -3px 0px;
+    border: 3.5px solid black;
+    text-align: center;
+    font-size: 125%;
+    font-weight: bold;
+    background-color: #0a1fd8;
+    color: #fff;
+}
+.content {
+    padding: 5px;
+    border: none;
+    background-color: gray;
+    font-family: Helvetica;
+    color: black;
+    margin: 3px ;
+    height: 150px;
+    overflow: auto;
+}
+
+/* desktop version */
+
+@media(min-width: 992px){
+    .column-md-4{
+       float: left;
+       width: 33.33%;
+    }
+}
+
+/* tablet version */
+@media(min-width:768px) and (max-width:991px){
+    .colmn-md-6{
+        float: left;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .colmn-md-12{
+        float: left;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* mobile version */
+@media (max-width:767px) {
+    .colmn-sm-12{
+        float: left;
+        width: 100%;
+    }
+    main h4{
+        font-size:15px;
+    }
+}
+main{
+    position: fixed;
+    bottom:0;
+    width:100%;
+    text-align: center;
+    background: #0046af;
+    padding:10px;
+    color:#fff;
+}
